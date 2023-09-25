@@ -1,5 +1,15 @@
 # C# 기초
 
+## 컴파일
+- 새 프로젝트 만들기
+  - 콘솔 앱 템플릿 → 솔루션 및 프로젝트를 같은 디렉토리에 배치 → 프레임워크 .NET 7.0 (최상위 문 사용 안함)
+  - 솔루션 탐색기 (내 프로젝트 이름 우클릭) → 속성 → 전역 using 암시적 전체 사용 끄기
+  - 빌드 단축키 : ctrl + shift + B
+- 파일 동작
+  - 파일 탐색기에서 폴더 열기
+  - bin → debug → net7.0 → hello.exe
+  - window + R → cmd → cd (경로추적) → dir (디렉토리 리스트)
+
 ## Visual Studio 2022
 - https://visualstudio.microsoft.com/ko/downloads/에 접속한다.
 - '커뮤니티'에 '무료 다운로드'를 클릭한다.
