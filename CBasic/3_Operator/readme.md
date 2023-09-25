@@ -70,6 +70,57 @@ string result = "123" + "456" //result는 "123456", 문자열 결합 연산자
 - || : or
 - ! : not
   <img width="1112" alt="image" src="https://github.com/ANNJUNGCHAN/Unity/assets/89781598/3cdf8c5b-51d7-499f-b7dd-8cb7c5924495">
+  ```
+  int a = 3;
+  int b = 4;
+  bool c = a < b && b <5 // c는 True
+  bool d = a > b && b <5 // d는 False
+  bool e = a > b || b < 5 // e는 true
+  bool f = !e //e의 부정은 False, f는 False
+  ```
+
+## 조건 연산자
+- 조건에 따라 두 값중 하나의 값을 반환
+- 사용 형식 : 조건식 ? 참일때의 값 : 거짓일 때의 값
+  ```
+  int a = 30 ;
+  string result = a ==30 ? "삼십" : "삼십아님"; //result는 "삼십"
+  ```
+
+## 비트 연산자
+- 비트 수준에서 데이터를 가공하는 연산자
+  <img width="1480" alt="image" src="https://github.com/ANNJUNGCHAN/Unity/assets/89781598/dc47bfdd-95b7-4328-9b4f-bcf98b3985ec">
+  <br>
+  ```
+  int a = 240 ; // 00000000 00000000 00000000 11110000
+  int result_1 = a << 2 ; // 00000000 00000000 00000011 11000000
+  int result_2 = a >> 2 ; // 00000000 00000000 00000000 00111100
+  ```
+  - int a = 240 << 2;
+  <img width="1609" alt="image" src="https://github.com/ANNJUNGCHAN/Unity/assets/89781598/91cdb3ef-0c54-40c9-a44d-5694cbc15cab">
+  <br>
+  <img width="1454" alt="image" src="https://github.com/ANNJUNGCHAN/Unity/assets/89781598/0034326f-d14a-415f-af81-7e601d02793a">
+  <br>
+  <img width="1237" alt="image" src="https://github.com/ANNJUNGCHAN/Unity/assets/89781598/8a709a3d-d796-42e1-a581-bcaa1e590cc0">
+  ```
+  int a = 255 ;
+  int result = ~a ; // result는 -256
+  ```
+
+## 할당 연산자
+- 변수 또는 상수에 피연산자를 할당
+  <img width="1399" alt="image" src="https://github.com/ANNJUNGCHAN/Unity/assets/89781598/49aee7a0-f180-4a11-8225-9aa801e0fbc2">
+
+## 연산자의 우선 순위
+<img width="1457" alt="image" src="https://github.com/ANNJUNGCHAN/Unity/assets/89781598/0ff84dc8-94da-4851-8b00-e9259adb3029">
+
+
+
+  
+
+  
+  
+  
 
 
 
